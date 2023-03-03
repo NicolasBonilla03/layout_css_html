@@ -22,4 +22,20 @@
 color: #ffffff;
 }
 
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    height: calc(100vh - 300px);
+}
+.content nav{
+    width: 200px;
+    background-color: #8a8787;
+    height: calc(100vh - 300px);
 
+}
+.content article{
+    width: calc(100% - 200px);
+    height: calc(100vh - 300px);
+}

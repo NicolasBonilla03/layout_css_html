@@ -1,0 +1,24 @@
+.page{
+    display: grid;
+    grid-template-areas: "Cabecera  Cabecera" 
+    "Navegacion Contenido "
+    "piePagina piePagina";
+    /* grid-template-columns: 200px calc(100vh - 200px); */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px calc(100vh - 300px) 150px;
+    grid-gap: 20px;
+}
+
+.page header{
+    grid-area: Cabecera;
+}
+.page nav{
+    grid-area: Navegacion;
+}
+
+.page article{
+    grid-area: Contenido;
+}
+.page footer{
+    grid-area: piePagina;
+}
